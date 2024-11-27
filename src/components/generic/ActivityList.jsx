@@ -81,7 +81,7 @@ function ActivityListItem({item, customStyle, children}) {
     return (
         <div className={`activity-list-item`} style={customStyle}>
             <div className={`avatar-wrapper me-3`}>
-                <CircleAvatar size={1}
+                <CircleAvatar size={50}
                               dynamicSize={true}
                               img={item.img}
                               fallbackIcon={item.fallbackIcon}
@@ -108,13 +108,13 @@ function ActivityListItem({item, customStyle, children}) {
 
                 {item.dateStarted && (
                     <ActivityListInfoBlock icon={`fa-solid fa-stopwatch`}
-                                           text={experienceLabel}
+                                          
                                            shouldDisplayLargeText={Boolean(children)}/>
                 )}
 
                 {item.description && (
                     <ActivityListInfoBlock icon={item.dateStarted ? `fa-solid fa-comment` : ``}
-                                           text={item.description}
+                                         
                                            shouldDisplayLargeText={Boolean(children)}/>
                 )}
             </div>
@@ -127,7 +127,7 @@ function ActivityListInfoBlock({icon, text, shouldDisplayLargeText}) {
         <div className={`w-100 text-muted fw-bold`}>
             <div className={`${shouldDisplayLargeText ? 'text-1' : 'text-2'}`} style={{marginTop: '2px'}}>
                 {icon && (
-                    <FaIcon iconName={`${icon} text-1 opacity-50 me-1`}/>
+                    <FaIcon/>
                 )}
 
                 <span dangerouslySetInnerHTML={{__html:utils.parseJsonText(text)}}/>
@@ -156,7 +156,7 @@ function ActivityListItemWithProgress({ item, createdAt }) {
 
     return (
         <ActivityListItem item={item}>
-            <CustomProgressBar now={progressValue}/>
+            
         </ActivityListItem>
     )
 }
