@@ -18,11 +18,11 @@ function NavHeaderMobile() {
     return (
         <Box nav={true} id={`nav-mobile-top`} className={`nav-mobile-top`}>
             <div className={`float-top-left`}>
-                <LanguagePicker shrink={true}/>
+                
             </div>
 
             <div className={`float-top-right`}>
-                <ThemePicker shrink={true}/>
+             
             </div>
 
             <NavHeader shrink={false}/>

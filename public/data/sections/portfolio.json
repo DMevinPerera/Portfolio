@@ -64,82 +64,30 @@
 
             "items": [
                 {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/project-logo-3.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
-                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=32XsfeIX_rM",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "es": {
-                            "title": "BrainPulse",
-                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "fr": {
-                            "title": "BrainPulse",
-                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "ko": {
-                            "title": "BrainPulse",
-                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
-                            "tags": ["API", "REST", "Backend"]
-                        }
-                    }
-                },
-
-                {
                     "categoryId": "apps",
                     "icon": {
-                        "img": "images/pictures/project-logo-7.png",
+                        "img": "images/pictures/derma.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/DMevinPerera/Derma_Skin_App"},
+                        {"faIcon": "fa-brands fa-figma", "href": "https://www.figma.com/design/5rTCwrOkW5fhALT3AzGbK9/Untitled?node-id=0-1&t=EQ2FdjMiTyeaeHzI-0"}
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI",
+                        "youtubeVideo": "https://youtu.be/AVX03t3BuIE",
                         "screenshots": {
-                            "aspectRatio": "9:16",
-                            "images": [
-                                "images/pictures/project-screenshot-1.webp",
-                                "images/pictures/project-screenshot-2.webp",
-                                "images/pictures/project-screenshot-3.webp",
-                                "images/pictures/project-screenshot-4.webp",
-                                "images/pictures/project-screenshot-5.webp"
-                            ]
+                            "aspectRatio": "9:16"
                         }
                     },
 
                     "locales": {
                         "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
+                            "title": "Derma Mobile App",
+                            "text": "<br><br><br><br><br>I developed an innovative app designed to detect skin diseases with just a snap of an image. Built on a Convolutional Neural Network (CNN) architecture, the model has been trained to accurately identify 10 different skin diseases, providing a quick and reliable diagnostic tool.",
+                            "tags": ["Flutter", "TensorFlow", "Python", "Figma", "OpenCV", "Keras", "Firebase"]
                         },
                         "es": {
                             "title": "MailM8",
@@ -162,14 +110,14 @@
                 {
                     "categoryId": "apps",
                     "icon": {
-                        "img": "images/pictures/project-logo-6.png",
+                        "img": "images/pictures/sabranow.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/DMevinPerera/SabraNow"},
+                        {"faIcon": "fa-brands fa-figma", "href": "https://www.figma.com/design/e1xbh1xcZir4PZwJ8o6bK3/SabraNow?node-id=0-1&node-type=canvas&t=USnglDraoC1p8wJr-0"}
                     ],
 
                     "media": {
@@ -177,18 +125,62 @@
                         "screenshots": {
                             "aspectRatio": "16:9",
                             "images": [
-                                "images/pictures/project-screenshot-6.png",
-                                "images/pictures/project-screenshot-7.png",
-                                "images/pictures/project-screenshot-8.png"
+                                
                             ]
                         }
                     },
 
                     "locales": {
                         "en": {
+                            "title": "SabraNow",
+                            "text": "<br><br><br><br><br><br>I developed an app for the university called SabraNow, designed to streamline event sharing and communication. The platform allows university events to be easily posted and accessed, ensuring that everyone stays informed and connected.",
+                            "tags": ["React Native", "NodeJS", "MongoDB", "Figma"]
+                        },
+                        "es": {
                             "title": "Stackers",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
+                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
+                            "tags": ["React", "Organización", "Notas"]
+                        },
+                        "fr": {
+                            "title": "Stackers",
+                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
+                            "tags": ["React", "Organisation", "Notes"]
+                        },
+                        "ko": {
+                            "title": "Stackers",
+                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
+                            "tags": ["React", "조직", "메모"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/DMevinPerera/SabraNow"},
+                        {"faIcon": "fa-brands fa-figma", "href": "https://www.figma.com/design/e1xbh1xcZir4PZwJ8o6bK3/SabraNow?node-id=0-1&node-type=canvas&t=USnglDraoC1p8wJr-0"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Smart Tuition Management System",
+                            "text": "An App designed to fully manage a Tuition Class which consist of features like automatic face recognition, assignment submission and time table planning.",
+                            "tags": ["React", "Flutter", "TensorFlow", "OpenCV", "Python"]
                         },
                         "es": {
                             "title": "Stackers",
@@ -208,20 +200,22 @@
                     }
                 },
 
+
                 {
                     "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/project-logo-1.png",
+                        "img": "images/pictures/eventvibes.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/DMevinPerera/EventVibe"},
+                        {"faIcon": "fa-brands fa-figma", "href": "https://www.figma.com/design/bu6JS18ai80HxQGD85KZEN/Team-SynTax_Error?node-id=0-1&node-type=canvas&t=gVafcbbqwUGnOQcv-0"}
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=Su93UJsa3t4",
                         "screenshots": {
                             "aspectRatio": null,
                             "images": []
@@ -230,9 +224,9 @@
 
                     "locales": {
                         "en": {
-                            "title": "SmartCash",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
+                            "title": "EventVibes",
+                            "text": "<br><br><br><br><br>Website which enables Event Planers to showcase their work and clients to directly order their services.",
+                            "tags": ["PHP", "CSS", "HTML"]
                         },
                         "es": {
                             "title": "SmartCash",
@@ -252,61 +246,19 @@
                     }
                 },
 
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-2.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
-                        },
-                        "es": {
-                            "title": "Snappy",
-                            "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
-                            "tags": ["Swift", "Fotografía", "Cámara"]
-                        },
-                        "fr": {
-                            "title": "Snappy",
-                            "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
-                            "tags": ["Swift", "Photographie", "Caméra"]
-                        },
-                        "ko": {
-                            "title": "Snappy",
-                            "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
-                            "tags": ["Swift", "사진", "카메라"]
-                        }
-                    }
-                },
+               
 
                 {
                     "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/project-logo-5.png",
+                        "img": "images/pictures/carebridge.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://sweetscoops.com"}
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/DMevinPerera/Web-Project-CareBridge"},
+                        {"faIcon": "fa-brands fa-figma", "href": "https://www.figma.com/design/NuCDK1CMmQD4hYDekAOPlU/CareBridge?node-id=0-1&node-type=canvas&t=QR2b3uDRLD7mqhow-0"}
                     ],
 
                     "media": {
@@ -319,9 +271,9 @@
 
                     "locales": {
                         "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
+                            "title": "CareBridge",
+                            "text": "<br><br><br><br><br>CareBridge is a website which enables cancer patients to have a better social life and not get isolated from the world.",
+                            "tags": ["ReactJS", "MongoDB", "NodeJS"]
                         },
                         "es": {
                             "title": "Sweet Scoops",
@@ -344,13 +296,14 @@
                 {
                     "categoryId": "websites",
                     "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-guitar",
+                        "img": "images/pictures/campinga.png",
+                        "fa": "",
                         "faColors": {"bg": "#111", "fill": "#EEE"}
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://rockverse.com"}
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/DMevinPerera/Campinga"},
+                        {"faIcon": "fa-brands fa-figma", "href": "https://www.figma.com/design/DtV6hjD1JLegLFGqdbC0I0/Campinga?node-id=0-1&t=eIQS5YWZC515XFCe-1"}
                     ],
 
                     "media": {
@@ -363,9 +316,272 @@
 
                     "locales": {
                         "en": {
+                            "title": "Campinga",
+                            "text": "<br><br><br><br><br>A website designed for users to easily locate camping gear for rent.",
+                            "tags": ["PHP", "MySQL", "Figma"]
+                        },
+                        "es": {
                             "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
+                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
+                            "tags": ["Django", "Música", "Rock"]
+                        },
+                        "fr": {
+                            "title": "RockVerse",
+                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
+                            "tags": ["Django", "Musique", "Rock"]
+                        },
+                        "ko": {
+                            "title": "RockVerse",
+                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
+                            "tags": ["Django", "음악", "록"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": null,
+                        "fa": "",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/DMevinPerera/Employee-Management-System"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Employee Management System",
+                            "text": "An HRM system designed to manage the Employees within a company.",
+                            "tags": ["ReactJS", "Spring Boot", "Firebase", "MySQL"]
+                        },
+                        "es": {
+                            "title": "RockVerse",
+                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
+                            "tags": ["Django", "Música", "Rock"]
+                        },
+                        "fr": {
+                            "title": "RockVerse",
+                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
+                            "tags": ["Django", "Musique", "Rock"]
+                        },
+                        "ko": {
+                            "title": "RockVerse",
+                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
+                            "tags": ["Django", "음악", "록"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": null,
+                        "fa": "",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/DMevinPerera/SweetSliceNew"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "SweetSlice",
+                            "text": "An e-commerce App mainly developed to practice testing practices.",
+                            "tags": ["Vite Testing", "Selenium", "JUnit"]
+                        },
+                        "es": {
+                            "title": "RockVerse",
+                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
+                            "tags": ["Django", "Música", "Rock"]
+                        },
+                        "fr": {
+                            "title": "RockVerse",
+                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
+                            "tags": ["Django", "Musique", "Rock"]
+                        },
+                        "ko": {
+                            "title": "RockVerse",
+                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
+                            "tags": ["Django", "음악", "록"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": null,
+                        "fa": "",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/DMevinPerera/Vehicle-Rental-Website---CarHub"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Vehicle Rental Service",
+                            "text": "A Car Rental Service build using NextJS",
+                            "tags": ["NextJS", "Figma"]
+                        },
+                        "es": {
+                            "title": "RockVerse",
+                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
+                            "tags": ["Django", "Música", "Rock"]
+                        },
+                        "fr": {
+                            "title": "RockVerse",
+                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
+                            "tags": ["Django", "Musique", "Rock"]
+                        },
+                        "ko": {
+                            "title": "RockVerse",
+                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
+                            "tags": ["Django", "음악", "록"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/everyrupee.png",
+                        "fa": "",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-figma", "href": "https://www.figma.com/design/ZPiPhJO7Z4jy6FprCeQe72/Every-Rupee-App?t=eIQS5YWZC515XFCe-1"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Every Rupee",
+                            "text": "<br><br><br><br><br><br>An App designed through Figma to manage the expenses of users.",
+                            "tags": ["Figma"]
+                        },
+                        "es": {
+                            "title": "RockVerse",
+                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
+                            "tags": ["Django", "Música", "Rock"]
+                        },
+                        "fr": {
+                            "title": "RockVerse",
+                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
+                            "tags": ["Django", "Musique", "Rock"]
+                        },
+                        "ko": {
+                            "title": "RockVerse",
+                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
+                            "tags": ["Django", "음악", "록"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/cityways.png",
+                        "fa": "",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-figma", "href": "https://www.figma.com/design/nIxftMKCX5VrsWBHuxFCrT/CityWays_Team-SynTax_Error-(Copy)?t=eIQS5YWZC515XFCe-1"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "City Ways",
+                            "text": "<br><br><br><br><br><br>An App designed through Figma to manage the traffic in Sri Lanka.",
+                            "tags": ["Figma"]
+                        },
+                        "es": {
+                            "title": "RockVerse",
+                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
+                            "tags": ["Django", "Música", "Rock"]
+                        },
+                        "fr": {
+                            "title": "RockVerse",
+                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
+                            "tags": ["Django", "Musique", "Rock"]
+                        },
+                        "ko": {
+                            "title": "RockVerse",
+                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
+                            "tags": ["Django", "음악", "록"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/slar.png",
+                        "fa": "",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-figma", "href": "https://www.figma.com/design/KHJOTfbidjqVisvwQe9Uwb/SLAR-Disaster-Management-Website?t=eIQS5YWZC515XFCe-1"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Disaster Management",
+                            "text": "<br><br><br><br><br>An App designed through Figma to manage the natural disasters which are occuring in Sri Lanka",
+                            "tags": ["Figma"]
                         },
                         "es": {
                             "title": "RockVerse",
@@ -388,16 +604,17 @@
                 {
                     "categoryId": "utilities",
                     "icon": {
-                        "img": "images/pictures/project-logo-4.png",
+                        "img": "",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/DMevinPerera/Selenium-WhatsApp-Message-Automator"}
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0",
+                        
                         "screenshots": {
                             "aspectRatio": null,
                             "images": []
@@ -406,9 +623,9 @@
 
                     "locales": {
                         "en": {
-                            "title": "Soccer Analytics",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
+                            "title": "WhatsApp Message Automator",
+                            "text": "A program developed through python and selenium to automate the message process in WhatsApp",
+                            "tags": ["Chrome Web Driver", "Selenium", "Python"]
                         },
                         "es": {
                             "title": "Soccer Analytics",
@@ -426,53 +643,9 @@
                             "tags": ["AI", "예측", "축구"]
                         }
                     }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "",
-                        "fa": "fa-solid fa-truck-fast",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"},
-                        {"faIcon": "fa-brands fa-windows", "href": "https://windows.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "QuickDrop",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
-                        }
-                    }
                 }
+
+                
             ]
         }
     ]
