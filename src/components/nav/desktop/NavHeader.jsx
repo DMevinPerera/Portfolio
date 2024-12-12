@@ -30,12 +30,7 @@ function NavHeader({ shrink }) {
                        className={`img-view-avatar`}
                        alt={name}/>
 
-            {statusVisible && (
-                <StatusBadge available={statusAvailable}
-                         message={statusMessage}
-                         smallMode={shrink}/>
-            )}
-
+            
             <div className={`info mt-3 text-center`}>
                 <h5 className={`name`}>
                     <ImageView src={logoUrl}

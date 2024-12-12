@@ -99,6 +99,22 @@ function NavSidebarLinks({shouldShrink, sections}) {
                              onClick={() => {_setActive(section)}}/>
                 </NavSidebarGroupItem>
             ))}
+            {/* CV Download Link */}
+            <NavSidebarGroupItem key="cv-download" visible={true}>
+                <NavLink
+                    shrink={shouldShrink}
+                    label="Download CV"
+                    icon="fa-solid fa-download"
+                    size={1}
+                    className="px-4"
+                    onClick={() => {
+                        const link = document.createElement('a');
+                        link.href = "/Mevin Perera CV.pdf"; // Update this with the actual CV file path.
+                        link.download = "Mevin_Perera_CV.pdf";
+                        link.click();
+                    }}
+                />
+                  </NavSidebarGroupItem>
         </NavSidebarGroup>
     )
 }
