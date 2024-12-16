@@ -100,6 +100,22 @@ function NavSidebarLinks({shouldShrink, sections}) {
                 </NavSidebarGroupItem>
             ))}
             {/* CV Download Link */}
+            <NavSidebarGroupItem key="blog-page" visible={true}>
+                <NavLink
+                    shrink={shouldShrink}
+                    label="My Blog"
+                    icon="fa-solid fa-blog"
+                    size={1}
+                    className="px-4"
+                    onClick={() => {
+                        const link = document.createElement('a');
+                        link.href = "https://medium.com/@dulanya2001";
+                        link.target = '_blank'; // Ensures the link opens in a new tab.
+                        link.rel = 'noopener noreferrer';
+                        link.click();
+                    }}
+                />
+                  </NavSidebarGroupItem>
             <NavSidebarGroupItem key="cv-download" visible={true}>
                 <NavLink
                     shrink={shouldShrink}
